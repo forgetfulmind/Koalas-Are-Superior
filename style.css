@@ -1,10 +1,114 @@
-.heading {
-    background-color: blue;
-    width: 500px;
-    margin: auto;
-    padding: 20px;
+.navigation {
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: 7px;
+    float: left;
 }
 
-h1 {
+.Brand {
+    font-size: 30px;
+    margin-right: 40px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#index {
+    color: white;
+}
+
+#heading {
+    background-color: rgb(255, 137, 255);
+    padding-bottom: 5px;
+    border-bottom: solid;
+    border-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.HomeMeat {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+#HomepageImage {
+    background-color: rgb(255, 137, 255);
+    padding: 5px;
+    margin: auto;
+    width: 50%;
+    border: solid;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 137, 255);
+
+}
+
+#HomepageContent {
+    width: 95%;
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+  }
+
+.Content {
+    width: 95%;
+    margin: auto;
+    font-size: 18px;
+}
+
+#map {
+    background-color: rgb(255, 137, 255);
+    padding: 5px;
+    margin: auto;
+    width: 50%;
+    border: solid;
+}
+
+figcaption {
+    padding: 2px;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
     text-align: center;
+}
+
+#livestream {
+        background-color: rgb(255, 137, 255);
+        padding: 7px;
+        margin: auto;
+        width: 25%;
+        height: 50%;
+        border: solid;
+    }
+    
 }
