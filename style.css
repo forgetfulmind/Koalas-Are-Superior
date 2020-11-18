@@ -18,10 +18,12 @@
 
 #heading {
     background-color: rgb(255, 137, 255);
-    padding-bottom: 5px;
     border-bottom: solid;
     border-color: white;
-    position: fixed;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 40px;
     width: 100%;
 }
 
