@@ -111,4 +111,14 @@ figcaption {
         border: solid;
     }
     
+footer {
+    color: white;
+        background-color: rgb(255, 137, 255);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: solid;
+        border-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
 }
